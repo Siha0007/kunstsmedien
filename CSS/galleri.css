@@ -1,0 +1,57 @@
+body {
+  background-color: rgba(246, 239, 229, 1);
+}
+
+a {
+  color: rgba(173, 26, 27, 1);
+  font-family: "Old Standard TT", serif;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration-line: none;
+}
+
+.button1 {
+  border: none;
+  background-color: rgba(246, 239, 229, 1);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 370px;
+  top: 500px;
+}
+.button2 {
+  border: none;
+  background-color: rgba(246, 239, 229, 1);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 835px;
+  top: 500px;
+}
+
+img {
+  width: 400px;
+}
+
+.billede01 {
+  position: absolute;
+
+  left: 750px;
+  top: 200px;
+}
+
+.billede02 {
+  position: absolute;
+  top: 200px;
+  left: 270px;
+}

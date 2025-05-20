@@ -1,0 +1,17 @@
+body {
+  background-color: rgba(246, 239, 229, 1);
+}
+h1 {
+  color: rgba(173, 26, 27, 1);
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration-line: none;
+  font-size: xxx-large;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding-right: 920px;
+}
