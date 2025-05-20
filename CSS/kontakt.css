@@ -1,0 +1,68 @@
+.main-content {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "phone photo"
+    "quote photo";
+  gap: 2rem;
+  padding: 2rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: serif;
+  background-color: #f6efe5;
+}
+.phone {
+  grid-area: phone;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.phone .icon {
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}
+
+.number {
+  font-weight: 500;
+}
+
+.quote {
+  grid-area: quote;
+  font-size: 1.8rem;
+}
+
+.quote s {
+  text-decoration: line-through;
+}
+
+.quote .correction {
+  font-family: "Courier New", monospace;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.photo {
+  grid-area: photo;
+  background-color: #a61919;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.footer {
+  background-color: #a61919;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: left;
+  font-size: 1.2rem;
+}
