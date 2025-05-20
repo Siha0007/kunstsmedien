@@ -52,6 +52,8 @@ img {
 
 .billede02 {
   position: absolute;
-  top: 200px;
+  top: 500px;
   left: 270px;
+  width: 300px;
+  height: 500px;
 }
