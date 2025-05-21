@@ -81,14 +81,14 @@ nav {
   width: 160px;
   text-align: center;
   padding: 7px 0;
-  color: #ffffff;
+  color: #f9f5f2;
   text-decoration: none;
   background-color: #424242;
   transition: color 0.3s, background-color 0.3s;
 }
 
 .menu a:hover {
-  color: #ad1a1b;
+  color: #891d1f;
 }
 
 .burger {
