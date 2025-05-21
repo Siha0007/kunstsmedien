@@ -22,10 +22,14 @@
   font-style: italic;
 }
 
-.ambolt img {
-  display: block;
-  margin: 0 auto;
-  width: 300px;
+.hul {
+  display: flex;
+  justify-content: center;
+}
+
+.hul img {
+  margin: 1.5rem;
+  width: 500px;
 }
 
 body {
@@ -36,10 +40,11 @@ body {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
+  font-family: "Old Standard TT", serif;
   color: #000000;
   text-align: center;
-  margin-top: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 nav {
