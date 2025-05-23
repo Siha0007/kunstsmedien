@@ -19,8 +19,10 @@ body {
 .phone {
   grid-area: phone;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  font-size: 2rem;
+  font-size: 3rem;
+  margin-top: 2.5rem;
 }
 
 .phone .icon {
@@ -34,22 +36,29 @@ body {
 
 .quote {
   grid-area: quote;
-  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.5rem;
 }
 
 .quote s {
   text-decoration: line-through;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
 }
 
 .quote .correction {
   font-family: "Courier New", monospace;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 0.5rem;
 }
 
 .photo {
   grid-area: photo;
-  background-color: #891d1f;
+  /* background-color: #891d1f; */
   color: white;
   display: flex;
   justify-content: center;
