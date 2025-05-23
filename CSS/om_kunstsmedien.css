@@ -133,7 +133,9 @@ p {
 
 @media (min-width: 750px) {
   .grid_8_1 {
-    margin: 200px;
+    margin: 150px;
+    margin-top: 75px;
+    margin-bottom: 75px;
   }
   .grid_1_1_1 {
     margin-left: 300px;
