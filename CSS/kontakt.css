@@ -16,6 +16,9 @@ body {
 .photo {
   margin: 1rem;
 }
+.number {
+  color: darkblue;
+}
 
 @media (min-width: 750px) {
   .main-content {
@@ -45,6 +48,7 @@ body {
 
   .number {
     font-weight: 500;
+    color: darkblue;
   }
 
   .quote {
