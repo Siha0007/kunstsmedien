@@ -23,7 +23,6 @@
 .gallery-item {
   position: relative;
   width: 300px;
-  /* margin og padding kan fjernes da global nulstillet */
 }
 
 .gallery-item img {
@@ -50,4 +49,11 @@
 .center-button:hover {
   background-color: #891d1f;
   color: #f9f5f2;
+}
+
+@media screen and (max-width: 800px) {
+  .gallery-layout {
+    display: block;
+    margin-left: 70px;
+  }
 }
