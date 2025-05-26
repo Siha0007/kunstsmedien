@@ -101,7 +101,7 @@ nav {
   padding: 7px 0;
   color: #f9f5f2;
   text-decoration: none;
-  background-color: #424242;
+  background-color: #878787;
   transition: color 0.3s, background-color 0.3s;
 }
 
@@ -184,7 +184,7 @@ footer .col:last-child {
 
   nav.active .menu {
     display: block;
-    background-color: #424242;
+    background-color: #878787;
     position: absolute;
     top: 150px;
     left: 65px;
