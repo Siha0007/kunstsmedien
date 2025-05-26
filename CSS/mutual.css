@@ -83,12 +83,12 @@ nav {
   padding: 7px 0;
   color: #f9f5f2;
   text-decoration: none;
-  background-color: #878787;
+  background-color: #999595;
   transition: color 0.3s, background-color 0.3s;
 }
 
 .menu a:hover {
-  color: #891d1f;
+  color: #7b2d24;
 }
 
 .burger {
